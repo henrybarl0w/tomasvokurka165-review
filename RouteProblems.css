@@ -1,0 +1,16 @@
+.d-flex p {
+  margin-top: 0px; 
+  margin-right: 100px;
+}
+
+.navbar.custom-border {
+  border-bottom: 3px solid lightslategray;
+}
+
+.row.custom-border {
+    border: 3px solid lightslategray;
+}
+
+.col-md-4 img {
+    margin: 10px;
+}
