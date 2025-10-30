@@ -1,0 +1,15 @@
+#navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.glass {
+  padding: 10px;
+  background: rgba(255, 255, 255, .08);
+  border-radius: 100px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 2px rgba(255, 255, 255, .6), 0 16px 32px rgba(0, 0, 0, .12);
+  backdrop-filter: blur(4px);
+}
