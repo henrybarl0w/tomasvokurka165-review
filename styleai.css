@@ -5,11 +5,62 @@ Margins
     margin: 20px;
 }
 
+.mg-subheader {
+    margin: 0px 30px 30px 30px;
+}
+
 .mg-text {
     margin: 50px 50px 5px 50px;
     
 }
 
+.mg-text-pill {
+    margin: 40px 0px 0px 0px;
+}
+
 .mg-img {
     margin: 40px 10px 5px 10px;
+}
+
+.mg-img-pill {
+    margin: 40px 10px 5px 0px;
+}
+
+.mg-nav {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.font-md {
+    font-size: large;
+}
+
+.footer-list {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    list-style-type: none;
+}
+.footer-list li {
+    float: left;
+    margin: 30px 5px 5px 5px;
+}
+
+.footer-list li.final-item {
+    float: right;
+    margin: 30px 5px 0px 5px;
+    color: white;
+}
+
+.footer-list li a, .footer-list li p {
+    color: white;
+}
+
+.footer-list li a:hover {
+    color: rgb(165, 165, 165);
+}
+
+.trailer {
+    padding: 0px;
 }

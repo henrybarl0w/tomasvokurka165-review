@@ -17,7 +17,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ai.html">AI</a>
+              <a class="nav-link active" href="ai.html">AI</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="RouteProblems.html">Route Problems</a>
@@ -50,11 +50,219 @@
             <p>Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3382507">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3382507">Pixabay</a></p>
         </div>
     </div>
-    <div class="container-fluid">
+      <div class="container-fluid bg-light">
         <h1 class="display-1 mg-header text-center">Types of AI</h1>
-        <ul class="nav nav-tabs">
-            <li class="nav-item"></li>
-        </ul>
+        <h4 class="text-center mg-subheader"><b>According to IBM, there are 3 types of AI based on capabilities:</b></h4>
+        <div class="container-fluid row">
+            <div class="col-sm-4 text-center">
+                <h4 class="mg-header"><b>Artificial Narrow Intelligence (ANI)</b></h4>
+                <p>
+                    Artificial Narrow Intelligence (or ANI), often also refered to as Weak AI or Narrow AI, is an AI that can be trained for a specific task, usually excelling in that task even compared to other 
+                    humans. This is also the only intelligence that currently exists. Despite its utility, ChatGPT is considered a Narrow AI due to its limited input facilities.<sup>[1]</sup> Narrow AI is considered dangerous in some ways
+                    due to its unpredictability. Although things like Autocorrection, speech recoginition and contributions to data science (all examples of narrow AI), Narrow AI has also caused discrimination in workplaces as well
+                    as death via autonomous driving. <sup>[2]</sup>
+                </p>
+                <p><small>[1] <a href="https://www.ibm.com/think/topics/artificial-intelligence-types">https://www.ibm.com/think/topics/artificial-intelligence-types</a><br></small>
+                <small>[2] <a href="https://en.wikipedia.org/wiki/Weak_artificial_intelligence">https://en.wikipedia.org/wiki/Weak_artificial_intelligence</a></small></p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <h4 class="mg-header"><b>Artificial General Intelligence (AGI)</b></h3>
+                <p>
+                    Artificial General Intelligence (or AGI), often called Strong AI, is an AI that would be capable of virtually all tasks human can accomplish, matching or surpassing human capability in these tasks. AGI can use previous learnt facts and skills to accomplish new tasks in unfamiliar contexts without needing human input.<sup>[1]</sup> Currently, Artifical General Intelligence has not been achieved however it is expected that the first AGI will be achieved. 
+                    Researchers such as Russell & Norvig, Poole and Nilsson hold a system of characteristics an AI has to show to be considered an AGI which includes the ability to learn, plan and integrate skills to solve any given problem, even if unfamiliar.<sup>[2]</sup>
+                </p>
+                <p><small>[1] <a href="https://www.ibm.com/think/topics/artificial-intelligence-types">https://www.ibm.com/think/topics/artificial-intelligence-types</a><br></small>
+                <small>[2] <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence">https://en.wikipedia.org/wiki/Weak_artificial_intelligence</a></small></p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <h4 class="mg-header"><b>Artificial Superintelligence (ASI)</b></h4>
+                <p>
+                    Artificial Superintelligence (ASI) is the highest level of theoretical artificial intelligence. ASI refers to an AI that surpasses the cognitive ability of the brightest and smartest human beings. An Artificial Superintelligence would have the ability to understand human experiences and emotion and would have their own emotions, needs and beliefs. <sup>[1]</sup>
+                    ASI is strictly theoretical, both due to technological constraints and due to the potential threat to humanity. One such threat is an intelligence explosions - reseacrhers argue that an ASI could become so intelligence through recursive self-improvement that its intelligence would surpass that of humans exponentially. <sup>[2]</sup>
+                <p><small>[1] <a href="https://www.ibm.com/think/topics/artificial-intelligence-types">https://www.ibm.com/think/topics/artificial-intelligence-types</a><br></small>
+                <small>[2] <a href="https://en.wikipedia.org/wiki/Superintelligence#Intelligence_explosion_and_control_problem">https://en.wikipedia.org/wiki/Superintelligence</a></small></p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <h1 class="display-2 text-center mg-header">Contributions of AI</h1>
+    <p class="mg-text text-center">AI has contributed to the modern world heavily, especially with the rise of LLM and Machine learning in the 2020s. The impact of these contributions is heavily debated and depends on the contexts and scenarios being discussed. In some areas, such as education, AI is heavily disputed, with some saying it belongs in an educational environment and some writing it off. For other sectors, AI has allowed for cheaper work, especially with the creation of generative AI models like Sora which can create simple logos, ideas etc. in seconds. Below are some of the positive and negative contributions of AI to society.</p>
+    <div class="container-fluid font-md">
+      <nav class="flex-column flex-sm-row mg-nav">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="flex-sm-fill text-sm-center nav-link active" id="nav-positives" data-bs-toggle="tab" data-bs-target="#nav-tab-positives" type="button" role="tab" aria-controls="nav-tab-positives" aria-selected="true">Positive Contributions</button>
+          <button class="flex-sm-fill text-sm-center nav-link" id="nav-negatives" data-bs-toggle="tab" data-bs-target="#nav-tab-negatives" type="button" role="tab" aria-controls="nav-tab-negatives" aria-selected="false">Negative Contributions</button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-tab-positives" role="tabpanel" aria-labelledby="nav-positives">
+          <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="edu-tab" data-bs-toggle="pill" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">Education</button>
+              <button class="nav-link" id="hlth-tab" data-bs-toggle="pill" data-bs-target="#healthcare" type="button" role="tab" aria-controls="healthcare" aria-selected="false">Healthcare</button>
+              <button class="nav-link" id="bus-tab" data-bs-toggle="pill" data-bs-target="#business" type="button" role="tab" aria-controls="business" aria-selected="false">Business</button>
+              <button class="nav-link" id="auto-tab" data-bs-toggle="pill" data-bs-target="#automation" type="button" role="tab" aria-controls="automation" aria-selected="false">Automation</button>
+            </div>
+            <div class="tab-content" id="nav-tab-positivesContent">
+              <div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="edu-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    One of the more contraversial uses of AI is education. Despite its obvious issues, AI has the potential to be extremely useful in Education.
+                    One particular area is personalised learning. AI can be used to provide each student with a unique study plan through the use of neural networks and data analysis. 
+                    This can help teachers with larger classes still give the students the best possible education. AI is also actively being used in educational institutions to make administrative tasks easier and quicker. This may include
+                    grading simple assignments, managing student records and communicating with parents. As AI can be accessed for free (with some restrictions), it can allow students in more impoverised areas and countries to access the same quality resources as others given that they have access to an interent connection. 
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\school-bus-6561458_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/meganleeb-18040170/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6561458">Megan Lee</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6561458">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="healthcare" role="tabpanel" aria-labelledby="hlth-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    AI has had a huge impact on healthcare, giving doctors tools to give diagnoses faster as well as speeding up research. Healthcare particularly benefits from a special type of AI called expert systems. 
+                    Expert systems are a type of AI models that use a knowledge base (a massive database of existing knowledge) to make inferences based on given information using an inference engine.
+                    These expert systems are used by doctors to aid in diagnosis, treatment planning and medical management. Given the millions of diseases and conditions a patient could have, the expert machine allows the doctor to make
+                    an accurate prognosis given the patients symptoms and medical history. In addition to this, AI can be used alongside Data Science to predict the progression of disease for a person as well as find trends that could help certain
+                    demographics to recieve care for diseases they may be more susceptible to.
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\hospital-4904920_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/dmchannelsng-15497646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4904920">SAMUEL GABRIEL</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4904920">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="bus-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    The sector that has benefitted most from the AI explosion is the commercial sector. AI has increased efficiency, 
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\typing-849806_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/startupstockphotos-690514/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849806">StartupStockPhotos</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=849806">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="automation" role="tabpanel" aria-labelledby="auto-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    TempText TempText TempText TempText TempTextTempTextTempTextTemp TextTempTextTempTextTempText TempTextTempTextTempTextTempTextTempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText
+                     TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\technique-4909951_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/gosiak1980-2374509/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4909951">Gosia K.</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4909951">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="nav-tab-negatives" role="tabpanel" aria-labelledby="nav-negatives">
+          <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="ethics-tab" data-bs-toggle="pill" data-bs-target="#ethics" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Ethics</button>
+              <button class="nav-link" id="env-tab" data-bs-toggle="pill" data-bs-target="#environment" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Environment</button>
+              <button class="nav-link" id="data-tab" data-bs-toggle="pill" data-bs-target="#data" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Privacy</button>
+              <button class="nav-link" id="bias-tab" data-bs-toggle="pill" data-bs-target="#bias" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Bias</button>
+            </div>
+
+            <div class="tab-content" id="nav-tab-positivesContent">
+              <div class="tab-pane fade show active" id="ethics" role="tabpanel" aria-labelledby="ethics-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    One of the more contraversial uses of AI is education. Despite its obvious issues, AI has the potential to be extremely useful in Education.
+                    One particular area is personalised learning. AI can be used to provide each student with a unique study plan through the use of neural networks and data analysis. 
+                    This can help teachers with larger classes still give the students the best possible education. AI is also actively being used in educational institutions to make administrative tasks easier and quicker. This may include
+                    grading simple assignments, managing student records and communicating with parents. As AI can be accessed for free (with some restrictions), it can allow students in more impoverised areas and countries to access the same quality resources as others given that they have access to an interent connection. 
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\ai-ethics-8296760_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/viarami-13458823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8296760">Markus Winkler</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8296760">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="environment" role="tabpanel" aria-labelledby="env-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    AI has had a huge impact on healthcare, giving doctors tools to give diagnoses faster as well as speeding up research. Healthcare particularly benefits from a special type of AI called expert systems. 
+                    Expert systems are a type of AI models that use a knowledge base (a massive database of existing knowledge) to make inferences based on given information using an inference engine.
+                    These expert systems are used by doctors to aid in diagnosis, treatment planning and medical management. Given the millions of diseases and conditions a patient could have, the expert machine allows the doctor to make
+                    an accurate prognosis given the patients symptoms and medical history. In addition to this, AI can be used alongside Data Science to predict the progression of disease for a person as well as find trends that could help certain
+                    demographics to recieve care for diseases they may be more susceptible to.
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\industry-1761801_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/sd-pictures-3553481/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1761801">Ralf Vetterle</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1761801">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="data" role="tabpanel" aria-labelledby="data-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    The sector that has benefitted most from the AI explosion is the commercial sector. AI has increased efficiency, 
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\cctv-surveillance-camera-7267551_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/webtechexperts-10518280/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7267551">Joseph Mucira</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7267551">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="bias" role="tabpanel" aria-labelledby="bias-tab"">
+                <div class="row">
+                  <div class="col-sm-6 mg-text-pill text-end">
+                    TempText TempText TempText TempText TempTextTempTextTempTextTemp TextTempTextTempTextTempText TempTextTempTextTempTextTempTextTempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText
+                     TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText TempText
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <div class="thumbnail mg-img-pill">
+                        <img src="images\barcelona-4043276_1280.jpg" class="rounded mx-auto d-block" style="width: 75%;" alt="">
+                    </div>
+                    <p>Image by <a href="https://pixabay.com/users/dkatana-1469103/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4043276">Pablo Valerio</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4043276">Pixabay</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark container-fluid trailer">
+      <ul class="footer-list">
+        <li>
+          <a class="github" href="https://github.com/TomasVokurka165">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="linkedin" href="https://www.linkedin.com/in/tomas-vokurka-6a0525285/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="final-item">
+          <p>Webpage created by Tomas Vokurka @ 2025 | Programming Black Formative</p>
+        </li>
+      </ul>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
