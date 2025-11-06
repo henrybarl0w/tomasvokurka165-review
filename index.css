@@ -1,0 +1,7 @@
+.navbar.custom-border {
+  border-bottom: 3px solid lightslategray;
+}
+
+.row.custom-border {
+    border: 3px solid lightslategray;
+}
